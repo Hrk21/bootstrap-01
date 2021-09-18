@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>B5</title>
+    <link rel="stylesheet" type="text/css" href="index.css" />
+    <!-- bootstrap 5 -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@200&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <div class="container-fluid">
+            <a class="navbar-brand " href="#"><img alt='img' style="height: 80px; padding: 0%;" src="logo.png" /></a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="about.html">About Us</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-capitalize" href="contact.html">Contact us</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-capitalize" href="gallary.html">gallary</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                            data-bs-toggle="dropdown" aria-expanded="false">
+                            Dropdown
+                        </a>
+                        <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                            <li><a class="dropdown-item" href="#">Action</a></li>
+                            <li><a class="dropdown-item" href="#">Another action</a></li>
+                            <li>
+                                <hr class="dropdown-divider">
+                            </li>
+                            <li><a class="dropdown-item" href="#">Something else here</a></li>
+                        </ul>
+                    </li>
+                </ul>
+            </div>
+    </nav>
+
+    <section class="main_heading my-5">
+        <div>
+            <h1 style="font-family: 'Raleway', sans-serif;" class="display-5 text-center">About Us</h1>
+            <hr / class="w-25 mx-auto">
+            <div class="container">
+                <div class="row my-5">
+                    <div class="col-lg-6 col-md-6 col-12 col-xxl-6">
+                        <figure>
+                            <img src=" slide1.jpg" alt="about image" class="img-fluid about_img">
+                        </figure>
+                    </div>
+                    <div class="col-lg-6 col-md-6 col-12 col-xxl-6 d-flex
+                        justify-content-center align-item-start flex-column">
+                        <h2> My Journey </h2>
+                        <p>Erwin Schroedinger ("oe" is the proper transliteration of the German "ö"), was a Nobel
+                            Prize-winning Austrian physicist who developed a number of fundamental results in quantum
+                            theory: the Schrödinger equation provides a way to calculate the wave function of a system
+                            and
+                            how it changes dynamically in time.
+
+                            In addition, he was the author of many works on various aspects of physics: statistical
+                            mechanics and thermodynamics, physics of dielectrics, colour theory, electrodynamics,
+                            general
+                            relativity</p>
+                        <button type="button" class="btn btn-outline-info w-25 data-toggle=" tooltip"
+                            data-bs-placement="right" title="press me">Check more</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <div class="container">
+        <div class="row">
+            <nav id="navbar-example2" class="navbar navbar-light bg-light px-3">
+                <a class="navbar-brand" href="#">Navbar</a>
+                <ul class="nav nav-pills">
+                    <li class="nav-item">
+                        <a class="nav-link" href="#scrollspyHeading1">First</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#scrollspyHeading2">Second</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" data-bs-toggle="dropdown" href="#" role="button"
+                            aria-expanded="false">Dropdown</a>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="#scrollspyHeading3">Third</a></li>
+                            <li><a class="dropdown-item" href="#scrollspyHeading4">Fourth</a></li>
+                            <li>
+                                <hr class="dropdown-divider">
+                            </li>
+                            <li><a class="dropdown-item" href="#scrollspyHeading5">Fifth</a></li>
+                        </ul>
+                    </li>
+                </ul>
+            </nav>
+            <div data-bs-spy="scroll" data-bs-target="#navbar-example2" data-bs-offset="0" class="scrollspy-example"
+                tabindex="0" style="height: 300px; overflow-y: scroll;">
+                <h4 id="scrollspyHeading1">First heading</h4>
+                <p>This is some placeholder content for the scrollspy page. Note that as you scroll down the page, the
+                    appropriate navigation link is highlighted. It's repeated throughout the component example. We keep
+                    adding some more example copy here to emphasize the scrolling and highlighting. This is some
+                    placeholder content for the scrollspy page. Note that as you scroll down the page, the appropriate
+                    navigation link is highlighted. It's repeated throughout the component example. We keep adding some
+                    more example copy here to emphasize the scrolling and highlighting.</p>
+                <h4 id="scrollspyHeading2">Second heading</h4>
+                <p>This is some placeholder content for the scrollspy page. Note that as you scroll down the page, the
+                    appropriate navigation link is highlighted. It's repeated throughout the component example. We keep
+                    adding some more example copy here to emphasize the scrolling and highlighting..</p>
+                <h4 id="scrollspyHeading3">Third heading</h4>
+                <p>This is some placeholder content for the scrollspy page. Note that as you scroll down the page, the
+                    appropriate navigation link is highlighted. It's repeated throughout the component example. We keep
+                    adding some more example copy here to emphasize the scrolling and highlighting.</p>
+                <h4 id="scrollspyHeading4">Fourth heading</h4>
+                <p>This is some placeholder content for the scrollspy page. Note that as you scroll down the page, the
+                    appropriate navigation link is highlighted. It's repeated throughout the component example. We keep
+                    adding some more example copy here to emphasize the scrolling and highlighting.</p>
+                <h4 id="scrollspyHeading5">Fifth heading</h4>
+                <p>This is some placeholder content for the scrollspy page. Note that as you scroll down the page, the
+                    appropriate navigation link is highlighted. It's repeated throughout the component example. We keep
+                    adding some more example copy here to emphasize the scrolling and highlighting.</p>
+            </div>
+        </div>
+
+    </div>
+
+    <footer class="bg-secondary text-center mx-auto text-white">
+        <p class="my-auto">© copyright HRK IND</p>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4"
+        crossorigin="anonymous">
+    </script>
+    
+    
+</body>
+
+</html>
